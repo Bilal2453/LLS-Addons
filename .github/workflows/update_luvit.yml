@@ -3,6 +3,7 @@ on: [workflow_dispatch, repository_dispatch]
 
 jobs:
   submodule-update:
+    name: Update and pull request changes
     runs-on: ubuntu-latest
     steps:
 
